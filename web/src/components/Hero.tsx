@@ -5,11 +5,15 @@ import Link from 'next/link'
 
 export function Hero() {
   return (
-    <div className="space-y-5">
-      <Image src={nlwLogo} alt="NLW Spacetime" />
+    <div className="flex flex-col items-center space-y-5 sm:place-items-start md:block">
+      <Image
+        className="w-28 place-self-start md:w-40"
+        src={nlwLogo}
+        alt="NLW Spacetime"
+      />
 
       <div className="max-w-[420px] space-y-1">
-        <h1 className="text-5xl font-bold leading-tight text-gray-50">
+        <h1 className="text-3xl font-bold leading-tight text-gray-50 sm:text-5xl">
           Sua cápsula do tempo
         </h1>
         <p className="text-lg leading-relaxed">
