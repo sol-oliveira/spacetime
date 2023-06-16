@@ -1,4 +1,4 @@
-<img width="800" alt="image" height="400" src=trello_board.gif/>
+<img width="800" alt="image" height="400" src="NLW Spacetime.gif"/>
 
 ## 📋 Sobre 
 <p>
